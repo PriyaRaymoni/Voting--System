@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  /* text-[25px] font-semibold */
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+}
+.links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.links a {
+    text-decoration: none;
+    color: #000;
+}
+.SignOutBtn {
+  background-color: #26b6f4;
+  color: rgb(7, 61, 108);
+  padding: 0.5rem 1rem;
+  border-radius: 0.8rem;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+}
